@@ -21,13 +21,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
       body: ListView(children: [
         ListTile(
           leading: Image.asset(
-            "asset/Dhanush.jpg",
+            "asset/jasna.jpg",
             width: 60,
             height: 80,
             fit: BoxFit.cover,
           ),
           title: Text(
-            "Dhanush",
+            "Jasna",
             style: TextStyle(fontWeight: FontWeight.w800, fontSize: 20),
           ),
           subtitle: Text("Aggressive Investor"),
